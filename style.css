@@ -35,3 +35,8 @@ a
 {
     text-decoration:none;
 }
+a:hover {
+    background-color: rgb(119, 247, 127, 25%);
+ 
+  }
+  a:active{font-size: 150%;}
