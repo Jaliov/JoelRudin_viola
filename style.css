@@ -1,16 +1,21 @@
 body {
     background-image: url("birdsout.jpg");
-
+    background-size: cover;
 }
 
 .container {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-bottom: 100px;
     height: 100%;
-    background-color: hsla(180, 16%, 90%, 0.3);
+    background-color: hsla(180, 55%, 85%, 0.3);
 }
+.center {
+    margin: auto;
+    width: 50%;
+   
+    padding: 10px;
+  }
 
 #joel {
     width: 200px;
@@ -24,7 +29,7 @@ h1 {
     color:rgb(18, 138, 243)
 }
 
-p, a {
+p {
     font-size: 1.52em;
     /* background-color: hsla(208, 65%, 80%, 30%); */
     width: 75%;
@@ -39,4 +44,12 @@ a:hover {
     background-color: rgb(119, 247, 127, 25%);
  
   }
-  a:active{font-size: 150%;}
+  a:active{font-size: 150%;} 
+
+  #bio {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 10%;
+    background-color: hsla(180, 55%, 85%, 0.3);
+  }
