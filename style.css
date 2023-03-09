@@ -53,3 +53,9 @@ a:active{font-size: 150%;}
     padding-bottom: 5%;
     background-color: hsla(180, 53%, 89%, 0.4);
 }
+
+audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333); background-color: rgb(208, 240, 208);}
+
+audio::-webkit-media-controls-panel {
+    background-color: #e4facf;
+  }
