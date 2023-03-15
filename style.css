@@ -59,3 +59,25 @@ audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333); backgr
 audio::-webkit-media-controls-panel {
     background-color: #e4facf;
   }
+
+  details{
+    margin-left: 5%;
+    margin-bottom: 1em;
+    color:rgb(4, 4, 138)
+  }
+
+  h4 {
+    color:rgb(4, 4, 138)
+  }
+
+  .navbar {
+    background-color: rgb(134, 212, 244, 0.4);
+  
+  }
+  .nav-item {
+    margin-left: 2rem;
+  }
+
+  nav {
+    width: 100%;
+  }
