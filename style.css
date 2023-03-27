@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-    padding-top: 10%;
+    padding-top: 5%;
     font-family: 'Merienda', cursive;
     text-shadow: 3px 3px 3px #ababab;
     color:rgb(18, 138, 243)
@@ -57,7 +57,7 @@ a:active{font-size: 150%;}
 audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333); background-color: rgb(208, 240, 208);}
 
 audio::-webkit-media-controls-panel {
-    background-color: #e4facf;
+    background-color: hwb(91 81% 2%);
   }
 
   details{
