@@ -49,6 +49,7 @@ a:active{font-size: 150%;}
     display: block;
     margin: auto;
     width: 75%;
+    margin: 5%;
     padding: 3%;
     background-color: hsla(180, 53%, 89%, 0.5);
 }
