@@ -11,6 +11,7 @@ document.querySelector(".nav").innerHTML = `
     <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
     <a class="nav-item nav-link" href="Joelbio.html">About Joel</a>
     <a class="nav-item nav-link" href="violaclips.html">Viola Tracks</a>
+    <a class="nav-item nav-link" href="teaching.html">Teaching/Contact</a>
     <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
   </div>
 </div>
