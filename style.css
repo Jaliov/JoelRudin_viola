@@ -1,6 +1,7 @@
 body {
     background-image: url("birdsout.jpg");
     background-size: cover;
+    color:rgb(4, 4, 138);
 }
 
 .container {
@@ -32,7 +33,7 @@ p {
     font-size: 1.52em;
     /* background-color: hsla(208, 65%, 80%, 30%); */
     width: 75%;
-    color:rgb(4, 4, 138)
+ 
 }
 .small {
   padding: 0;
@@ -75,20 +76,21 @@ audio::-webkit-media-controls-panel {
     color:rgb(4, 4, 138)
   }
 
-  h4 {
-    color:rgb(4, 4, 138)
+  h4, .nav-item, .navbar-brand, .nav-link, #home {
+    color:rgb(4, 4, 138);
+  }
+
+  .navbar-brand {
+    margin-left: 2rem;
   }
 
   .navbar {
-    background-color: rgb(134, 212, 244, 0.4);
+    background-color: rgb(134, 212, 244, 0.4)
+    }
   
-  }
-  /* .nav-item {
-    margin-left: 2rem;
-  } */
-
   nav {
     width: 100%;
+   
   }
 
   .btn-link 
