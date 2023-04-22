@@ -106,3 +106,9 @@ audio::-webkit-media-controls-panel {
       font-size: 200%;
     }
   
+    .horizAdjust{
+    
+      width: 600px;
+      border: 3px solid rgb(18, 138, 243, 50%);
+     
+    }
