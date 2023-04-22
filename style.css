@@ -35,6 +35,7 @@ p {
     /* background-color: hsla(208, 65%, 80%, 30%); */
     width: 75%;
     font-weight: 400;
+    color:rgb(4, 4, 138);
  
 }
 .small {
@@ -45,11 +46,15 @@ a
 {
     text-decoration:none;
 }
-a:hover {
-    background-color: rgb(119, 247, 127, 25%);
+a:hover, #hover {
  
+    background-color: rgb(119, 247, 127, 25%);
+    text-decoration: none; 
   }
-a:active{font-size: 150%;} 
+a:active{
+  font-size: 150%;
+  text-decoration: none; 
+} 
 
 #Joel-Rudin-bio {
     display: block;
@@ -108,7 +113,7 @@ audio::-webkit-media-controls-panel {
   
     .horizAdjust{
     
-      width: 600px;
+      width: 50%;
       border: 3px solid rgb(18, 138, 243, 50%);
      
     }
