@@ -45,14 +45,16 @@ p {
 a
 {
     text-decoration:none;
+    color:rgb(4, 4, 138);
+   
 }
 a:hover {
  
     background-color: rgb(119, 247, 127, 25%);
     text-decoration: none; 
+   
   }
 #hover:hover {
-  
   background-color: rgb(119, 247, 127, 25%);
   text-decoration: none; 
   width: 100px;
@@ -89,8 +91,13 @@ audio::-webkit-media-controls-panel {
     color:rgb(4, 4, 138)
   }
 
-  h4, .nav-item, .navbar-brand, .nav-link, #home {
+  nav, .nav-item, .navbar-brand, .nav-link, #home, h4 {
     color:rgb(4, 4, 138);
+   
+  }
+
+  .nav-item {
+    margin-right: 1em;
   }
 
   .navbar-brand {
@@ -98,7 +105,8 @@ audio::-webkit-media-controls-panel {
   }
 
   .navbar {
-    background-color: rgb(134, 212, 244, 0.4)
+    background-color: rgb(134, 212, 244, 0.4);
+    color:rgb(4, 4, 138);
     }
   
   nav {
