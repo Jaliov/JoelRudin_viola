@@ -46,11 +46,17 @@ a
 {
     text-decoration:none;
 }
-a:hover, #hover {
+a:hover {
  
     background-color: rgb(119, 247, 127, 25%);
     text-decoration: none; 
   }
+#hover:hover {
+  
+  background-color: rgb(119, 247, 127, 25%);
+  text-decoration: none; 
+  width: 100px;
+}
 a:active{
   font-size: 150%;
   text-decoration: none; 
