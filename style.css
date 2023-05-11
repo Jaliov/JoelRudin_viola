@@ -62,7 +62,13 @@ a:hover {
 a:active{
   font-size: 150%;
   text-decoration: none; 
+ 
+
 } 
+
+a:link {
+  color: rgb(18, 138, 243, 100%);
+}
 
 #Joel-Rudin-bio {
     display: block;
@@ -115,7 +121,8 @@ audio::-webkit-media-controls-panel {
   }
 
   .btn-link 
-    { text-decoration: none;
+    { 
+      text-decoration: none;
       font-size: 1.52rem;
       margin-top: -5px;
       margin-bottom: 5px;
@@ -125,9 +132,19 @@ audio::-webkit-media-controls-panel {
       font-size: 200%;
     }
   
-    .horizAdjust{
-    
+    .horizAdjust {
       width: 50%;
       border: 3px solid rgb(18, 138, 243, 50%);
-     
     }
+
+      .horizAdjust {
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+       
+    .container:hover .horizAdjust {
+      opacity: 0.6;
+    }
+    
+   
