@@ -1,4 +1,3 @@
-
 document.querySelector(".nav").innerHTML = `
 <nav class="navbar navbar-expand-lg navbar-light">
 <div class="container-fluid">
@@ -10,7 +9,7 @@ document.querySelector(".nav").innerHTML = `
   <div class="navbar-nav">
     <a class="nav-item nav-link active" aria-current="page" href="index.html" id="home" >Home</a>
     <a class="nav-item nav-link" href="Joelbio.html"  id="home">About Joel</a>
-    <a class="nav-item nav-link" href="violaclips.html"  id="home">Viola Tracks</a>
+    <a class="nav-item nav-link" href="violaclips.html"  id="home">Tracks</a>
     <a class="nav-item nav-link" href="teaching.html"  id="home">Teaching/Contact</a>
     <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
   </div>
@@ -18,11 +17,9 @@ document.querySelector(".nav").innerHTML = `
 </div>
 
 </nav>
-`
+`;
 
 let summary = document.querySelectorAll("summary");
 for (let i = 0; i < summary.length; i++) {
-    summary[i].innerHTML += `About this track`;
+  summary[i].innerHTML += `About this track`;
 }
-
-
