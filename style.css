@@ -28,6 +28,8 @@ h1 {
   font-family: "Merienda", cursive;
   text-shadow: 3px 3px 3px #ababab;
   color: rgb(18, 138, 243);
+  animation: moveInRight;
+  animation-duration: 5s;
 }
 
 p {
@@ -72,11 +74,20 @@ a:link {
 
 #Joel-Rudin-bio {
   display: block;
-  margin: auto;
-  width: 75%;
-  margin: 5%;
-  padding: 3%;
+  width: 80%;
+  margin-left: 5%;
+  padding-left: 3%;
   background-color: hsla(180, 53%, 89%, 0.5);
+  margin-bottom: 5%;
+  animation: moveInButton;
+  animation-duration: 5s;
+}
+
+#Joel-Rudin-bio-tile {
+  display: block;
+  width: 80%;
+  margin-left: 5%;
+  padding-left: 3%;
 }
 
 audio:hover {
@@ -151,4 +162,32 @@ nav {
 
 .container:hover .horizAdjust {
   opacity: 0.6;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
